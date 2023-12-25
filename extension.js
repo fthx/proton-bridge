@@ -58,6 +58,7 @@ export default class ProtonBridgeButtonExtension {
         }
         this._app = null;
         this._window = null;
+        this._icon = null;
 
         this._button.disconnectObject(this);
         this._button.destroy();
